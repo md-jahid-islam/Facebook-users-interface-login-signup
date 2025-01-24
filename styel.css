@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    background: white;
+    width: 850px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .left {
+    background: #1877f2;
+    color: white;
+    padding: 50px;
+    width: 50%;
+  }
+  
+  .left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .left p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .right {
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .form input:focus {
+    outline: none;
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 5px #1877f2;
+  }
+  
+  .btn {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .login-btn {
+    background: #1877f2;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background: #165ec8;
+  }
+  
+  .create-btn {
+    background: #42b72a;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .create-btn:hover {
+    background: #36a420;
+  }
+  
+  .signup-btn {
+    background: #42b72a;
+    color: white;
+  }
+  
+  .signup-btn:hover {
+    background: #36a420;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .forgot-password:hover {
+    color: #165ec8;
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .back-login span {
+    color: #1877f2;
+    cursor: pointer;
+  }
+  
+  .back-login span:hover {
+    text-decoration: underline;
+  }
+  
